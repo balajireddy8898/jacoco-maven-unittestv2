@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.bogotobogo</groupId>
   <artifactId>bogotobogo_JenkinsOnEC2</artifactId>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <version>212.0-SNAPSHOT</version>
 
   <properties>
