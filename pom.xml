@@ -53,7 +53,7 @@
 	<snapshotRepository>
 		<id>deployment</id>
 		<name>Internal Releases</name>
-		<url>http://localhost:8081/artifactory/libs-release-snapshots/</url>
+		<url>http://localhost:8081/artifactory/libs-snapshots-local/</url>
 	</snapshotRepository>
 
 </distributionManagement>
