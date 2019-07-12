@@ -48,19 +48,6 @@
 	  
   </plugins>
  </build>
-	<servers>
-    <server>
-      <username>$admin</username>
-      <password>password</password>
-      <id>central</id>
-    </server>
-    <server>
-      <username>admin</username>
-      <password>password</password>
-      <id>snapshots</id>
-    </server>
-  </servers>
-  
   <profiles>
     <profile>
       <repositories>
