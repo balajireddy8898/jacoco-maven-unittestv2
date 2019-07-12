@@ -21,5 +21,10 @@ pipeline {
         bat 'mvn test'
       }
     }
+    stage('Deploy') {
+      steps {
+        bat 'cd C:\\Program Files (x86)\\Jenkins\\workspace\\jacoco-maven-unittestv2_master\\target\\ajay && java -jar ajay-1.0.jar'
+      }
+    }
   }
 }
