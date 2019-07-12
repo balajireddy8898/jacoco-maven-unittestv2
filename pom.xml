@@ -2,8 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.bogotobogo</groupId>
   <artifactId>ajay</artifactId>
-  <packaging>jar</packaging>
-  <version>212.0-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <version>1.0</version>
 
   <properties>
     <maven.compiler.source>7</maven.compiler.source>
