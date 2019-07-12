@@ -11,5 +11,10 @@ pipeline {
         bat 'mvn install'
       }
     }
+    stage('SonarQube') {
+      steps {
+        bat 'mvn sonar:sonar'
+      }
+    }
   }
 }
