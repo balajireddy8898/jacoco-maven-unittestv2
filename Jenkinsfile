@@ -16,5 +16,10 @@ pipeline {
         bat 'mvn sonar:sonar'
       }
     }
+    stage('Artifactory') {
+      steps {
+        bat 'mvn deploy'
+      }
+    }
   }
 }
